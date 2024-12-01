@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
+    color: #0A1422;
 }
 body{
-    background-color:#001;
+    background-color:#F5F7FA;
     display: flex;
 }
 
@@ -30,12 +30,13 @@ body{
 }
 
 .menu{
-    background-color: #123;
+    background-color: #F5F7FA;
     width: 60px;
     height: 100vh;
     padding: 20px;
     overflow: hidden;
     transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .menu:hover{
     width: 260px;
@@ -60,7 +61,7 @@ ul li a{
 }
 
 ul li a:hover, .active, .data-info .box:hover, td:hover{
-    background-color: #ffffff55;
+    background-color: #b9b9b9;
 }
 .log-out{
     position: absolute;
@@ -69,7 +70,7 @@ ul li a:hover, .active, .data-info .box:hover, td:hover{
 }
 
 .log-out a{
-    background-color: red;
+    background-color: #fc531f;
 }
 ul li a i{
     font-size: 30px;
@@ -81,7 +82,7 @@ ul li a i{
 }
 
 .title-info{
-    background-color: #0481ff;
+    background-color: #FF8058;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -98,7 +99,7 @@ ul li a i{
     gap: 10px;
 }
 .data-info .box{
-    background-color: #123;
+    background-color: #F5F7FA;
     height: 150px;
     flex-basis: 150px;
     flex-grow: 1;
@@ -106,6 +107,7 @@ ul li a i{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .data-info .box i{
     font-size: 40px;
@@ -121,24 +123,26 @@ table{
     width: 100%;
     text-align: center;
     border-spacing: 8px;
+    
 }
 td, th{
-    background-color: #123;
+    background-color: #F5F7FA;
     height: 48px;
     border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 th{
-    background-color: #0481ff;
+    background-color: #FF8058;
 }
 
 
 .price{
     padding: 10px;;
     border-radius: 6px;
-    background-color: green;
+    /* background-color: green; */
 }
 .count{
     padding: 10px;;
     border-radius: 6px;
-    background-color: gold;
+    /* background-color: gold; */
 }
